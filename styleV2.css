@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet');
+
+.navbar {
+	margin-bottom:0;
+	border-radius:0;
+	background-color: #17252a;
+	color: #FFF;
+	padding: 1% 0;
+	font-size: 1.2em;
+	border: 0;
+}
+.navbar-brand {
+	float: left;
+	min-height:55px;
+	padding: 0 15px 5px;
+	min-height: 72px;
+    max-height: auto;
+}
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+	color: #FFF;
+	background-color: #17252a;
+}
+.navbar-inverse .navbar-nav li a {
+	color:#2b7a78;
+}
+.carousel-caption {
+	top: 50%;
+	float: left;
+	transform: translateY(-50%);
+	text-transform: Uppercase;
+}
+
+.carousel-caption h1 {
+	font-family: 'roboto', sans-serif;
+	font-size: 5.6em;
+}
+
+.carousel-caption a {
+	font-family: 'roboto', sans-serif;
+	font-size: 1.5em;
+	color: #FFF;
+}
+
+.carousel-caption a:hover {
+	text-decoration: none;
+}
+
+.btn  {
+	font-size: 18px;
+	color: #FFF;
+	padding: 12px 22px;
+	background: #17252a;
+	border: 2px solid #FFF;
+}
+
+.carousel-inner img {
+	width: 100vw;
+}
+
+.container {
+	margin: 4% auto;
+}
+
+footer {
+	width: 100%;
+	background-color: #17252a;
+	padding: 5%;
+	color: #FFF;
+}
+
+.fa {
+	padding: 20px;
+	font-size: 25px;
+	color: #FFF;
+	
+}
+
+.fa:hover{
+	color: #D5D5D5;
+	text-decoration: none;
+}
+
+
+#icon {
+	  max-width: 200px;
+	  margin: 1% auto;
+	  
+  }
+  
+ @media (max-width: 900px) {
+	.fa {
+		font-size:20px;
+		padding: 10px;
+	}
+  }
+  
+ @media (max-width: 600px) {
+	.carousel-caption {
+		display: none;
+	}
+	#icon{
+		max-width:150px;
+	}
+	h2 {
+		font-size: 1.7em;
+	}
+
+  }
+  
+  
